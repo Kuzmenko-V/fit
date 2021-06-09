@@ -44,9 +44,20 @@
                     <button class="g-form__button">Записатся</button>
                 </div>
             </div>
-        </form>
+            <div  class="g-form__button-wrapper">
+            <button class="ii" onclick="location.href=button.getUrl()">Перейти к оплате </button>
+        </div>
+        </form> 
     </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="./js/index.js"></script>
+    <script src="https://pay.fondy.eu/static_common/v1/checkout/ipsp.js"></script>
+    <script>
+        var button = $ipsp.get('button');
+        button.setMerchantId(1396424);
+        button.setAmount('', 'USD');
+        button.setHost('pay.fondy.eu');
+    </script>
+    
 </body>
 </html>

@@ -116,3 +116,9 @@ $(function() {
   }); 
 });
 }(jQuery));
+
+// let i = 235;
+//  var button = $ipsp.get('button');
+//         button.setMerchantId(1396424);
+//         button.setAmount(i, 'UAH');
+//         button.setHost('pay.fondy.eu');

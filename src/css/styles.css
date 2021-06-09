@@ -119,6 +119,32 @@ body {
   color: #fff;
   background: #37b599;
 }
+.ii {
+  margin-top: 15px;
+  width: 200px;
+  background: #7055f0;
+  outline: none;
+  border: none;
+  border-radius: 25px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 30px;
+  font: 400 0.9rem 'Roboto', sans-serif;
+  color: #d2d2d3;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: 0.3s;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+}
+
+.ii:hover {
+  transition: 0.3s;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+  color: #fff;
+  background: #37b599;
+}
 
 @media (max-width: 480px) {
   html,
